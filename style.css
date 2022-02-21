@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+/************** navbar **************/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 20px;
+}
+
+.navbar__menu{
+display: flex;
+
+}
+
+.navbar__menu li:not(:last-child) {
+  margin-right: 70px;
+  
+}
+.navbar__menu li{
+  list-style-type:none;
+}
+
+.navbar__menu a {
+  font-weight: 600;
+  color: #252b42;
+}
+
+.navbar__menu .active {
+  color: #FA4A0C;
+}
+
+/************** hero-content **************/
+
+.hero {
+  position: relative;
+}
+
+.hero__content {
+  margin: 0 auto;
+  padding-top: 73px;
+  height: 619px;
+  left: 0px;
+  background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(./images/hero.jpeg);
+  ;
+  background-size: cover;
+  background-position: center;
+}
+
+.FoodApp {
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Tittle1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 58px;
+}
+
+.Tittle2 {
+  color: #f6f6f6;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 20px;
+}
+
+/************** buttons **************/
+.buttons {
+  text-align: center;
+  margin-top: 58px;
+}
+
+.button1:hover {
+  background-color: yellow;
+}
+
+.button1 {
+  background-color: #FA4A0C;
+  padding: 16px 59px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 30px;
+  border: #FA4A0C 1px solid;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: transparent;
+}
+
+.button2 {
+  background-color: transparent;
+  padding: 16px 59px;
+  margin-left: 34px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 30px;
+  border: #fff 1px solid;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #FA4A0C;
+}
